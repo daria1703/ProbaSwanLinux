@@ -4,6 +4,7 @@ import image from '../zdj_splash.png';
 import Login from "./Login";
 
 const Splash = ({navigation}) => {
+  
     return (
         <ImageBackground source={image} style={styles.body}>
             <Text style={styles.text1}>THE SWAN</Text>
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       width: null,
       height: null,
+      
     },
     text: {
       color: '#ffffff',
